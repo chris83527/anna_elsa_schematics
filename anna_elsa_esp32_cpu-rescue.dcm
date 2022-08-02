@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP23017-E_SO-dk_Interface-I-O-Expanders
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709
+$ENDCMP
+#
+$CMP ULN2803ADWR-dk_Transistors-Bipolar-BJT-Arrays
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a
+$ENDCMP
+#
+#End Doc Library

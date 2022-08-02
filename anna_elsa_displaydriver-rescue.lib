@@ -1,0 +1,144 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +12V-power-anna_elsa_displaydriver-rescue
+#
+DEF +12V-power-anna_elsa_displaydriver-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V-power-anna_elsa_displaydriver-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +28V-power-anna_elsa_displaydriver-rescue
+#
+DEF +28V-power-anna_elsa_displaydriver-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+28V-power-anna_elsa_displaydriver-rescue" 0 150 50 H V C CNN
+F2 "" 250 50 50 H I C CNN
+F3 "" 250 50 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +28V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-power-anna_elsa_displaydriver-rescue
+#
+DEF +5V-power-anna_elsa_displaydriver-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power-anna_elsa_displaydriver-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Arduino_Nano_v3.x-MCU_Module-anna_elsa_displaydriver-rescue
+#
+DEF Arduino_Nano_v3.x-MCU_Module-anna_elsa_displaydriver-rescue A 0 20 Y Y 1 F N
+F0 "A" -200 1025 50 H V R CNN
+F1 "Arduino_Nano_v3.x-MCU_Module-anna_elsa_displaydriver-rescue" -200 950 50 H V R CNN
+F2 "Module:Arduino_Nano" 150 -950 50 H I L CNN
+F3 "" 0 -1000 50 H I C CNN
+$FPLIST
+ Arduino*Nano*
+$ENDFPLIST
+DRAW
+S -400 900 400 -900 0 1 10 f
+X D1/TX 1 -500 500 100 R 50 50 1 1 B
+X D7 10 -500 -100 100 R 50 50 1 1 B
+X D8 11 -500 -200 100 R 50 50 1 1 B
+X D9 12 -500 -300 100 R 50 50 1 1 B
+X D10 13 -500 -400 100 R 50 50 1 1 B
+X D11 14 -500 -500 100 R 50 50 1 1 B
+X D12 15 -500 -600 100 R 50 50 1 1 B
+X D13 16 -500 -700 100 R 50 50 1 1 B
+X 3V3 17 100 1000 100 D 50 50 1 1 w
+X AREF 18 500 200 100 L 50 50 1 1 I
+X A0 19 500 0 100 L 50 50 1 1 B
+X D0/RX 2 -500 600 100 R 50 50 1 1 B
+X A1 20 500 -100 100 L 50 50 1 1 B
+X A2 21 500 -200 100 L 50 50 1 1 B
+X A3 22 500 -300 100 L 50 50 1 1 B
+X A4 23 500 -400 100 L 50 50 1 1 B
+X A5 24 500 -500 100 L 50 50 1 1 B
+X A6 25 500 -600 100 L 50 50 1 1 B
+X A7 26 500 -700 100 L 50 50 1 1 B
+X +5V 27 200 1000 100 D 50 50 1 1 w
+X RESET 28 500 600 100 L 50 50 1 1 I
+X GND 29 100 -1000 100 U 50 50 1 1 W
+X RESET 3 500 500 100 L 50 50 1 1 I
+X VIN 30 -100 1000 100 D 50 50 1 1 W
+X GND 4 0 -1000 100 U 50 50 1 1 W
+X D2 5 -500 400 100 R 50 50 1 1 B
+X D3 6 -500 300 100 R 50 50 1 1 B
+X D4 7 -500 200 100 R 50 50 1 1 B
+X D5 8 -500 100 100 R 50 50 1 1 B
+X D6 9 -500 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# GND-power-anna_elsa_displaydriver-rescue
+#
+DEF GND-power-anna_elsa_displaydriver-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-anna_elsa_displaydriver-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# SN74HC165N-dk_Logic-Shift-Registers-anna_elsa_displaydriver-rescue
+#
+DEF SN74HC165N-dk_Logic-Shift-Registers-anna_elsa_displaydriver-rescue U 0 40 Y Y 1 F N
+F0 "U" -350 643 60 H V C CNN
+F1 "SN74HC165N-dk_Logic-Shift-Registers-anna_elsa_displaydriver-rescue" -50 -50 60 V V C CNN
+F2 "digikey-footprints:DIP-16_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc165" 200 300 60 H I L CNN
+F4 "296-8251-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SN74HC165N" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Logic - Shift Registers" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc165" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/SN74HC165N/296-8251-5-ND/376966" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC 8-BIT SHIFT REGISTER 16-DIP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -400 600 200 -700 0 1 0 f
+X SH/~{LD} 1 -500 -300 100 R 50 50 1 1 O
+X SER 10 -500 -500 100 R 50 50 1 1 O
+X A 11 -500 500 100 R 50 50 1 1 I
+X B 12 -500 400 100 R 50 50 1 1 I
+X C 13 -500 300 100 R 50 50 1 1 I
+X D 14 -500 200 100 R 50 50 1 1 I
+X CLK_INH 15 -500 -600 100 R 50 50 1 1 I
+X VCC 16 0 700 100 D 50 50 1 1 W
+X CLK 2 -500 -400 100 R 50 50 1 1 I
+X E 3 -500 100 100 R 50 50 1 1 I
+X F 4 -500 0 100 R 50 50 1 1 I
+X G 5 -500 -100 100 R 50 50 1 1 I
+X H 6 -500 -200 100 R 50 50 1 1 I
+X ~{Q}H 7 300 200 100 L 50 50 1 1 O
+X GND 8 0 -800 100 U 50 50 1 1 I
+X QH 9 300 300 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
