@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "anna_elsa_cpu-rescue")(type "Legacy")(uri "/net/home/chris/anna_elsa_fruit/anna_elsa_cpu/anna_elsa_cpu-rescue.lib")(options "")(descr ""))
+  (lib (name "anna_elsa_displaydriver-rescue")(type "Legacy")(uri "${KIPRJMOD}/anna_elsa_displaydriver-rescue.lib")(options "")(descr ""))
+  (lib (name "anna_elsa_esp32_cpu-rescue")(type "Legacy")(uri "${KIPRJMOD}/anna_elsa_esp32_cpu-rescue.lib")(options "")(descr ""))
+)

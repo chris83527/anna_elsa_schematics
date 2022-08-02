@@ -1,0 +1,28 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/net/home/chris/anna_elsa_fruit/anna_elsa_credit_display/anna_elsa_credit_display.sch</h1>
+    <p>Mi 07 Apr 2021 11:10:36 CEST</p>
+    <p>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</p>
+    <p><b>Component Count:</b>31</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C3</td><td>2</td><td>100nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2, C4</td><td>2</td><td>47µF</td><td>Device:C_Small</td><td>Capacitor_SMD:CP_Elec_6.3x7.7</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D5, D6, D7, D8, D9, D10</td><td>10</td><td>SC56*</td><td>SC56:SC56*</td><td>Kingbright:DIP10_KINGBRIGHT_SX56</td><td></td><td></td></tr>
+    <tr><td>D11, D12</td><td>2</td><td>1N4148W</td><td>_semi:DIODE</td><td>Diode_SMD:D_SOD-123</td><td>Diode voltage current [footprint]</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.2mm_M3_Pad</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>J1, J4</td><td>2</td><td>HT16K33_20</td><td>eurocad:HT16K33_20</td><td>Package_SO:SOP-20_7.5x12.8mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>J2, J3</td><td>2</td><td>I2C</td><td>w_connectors:HEADER_4</td><td>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>R1, R2, R3, R4, R5, R6</td><td>6</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>DSHP06TSGET</td><td>Switch:SW_DIP_x06</td><td>Button_Switch_SMD:SW_DIP_SPSTx06_Slide_KingTek_DSHP06TS_W7.62mm_P1.27mm</td><td>6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

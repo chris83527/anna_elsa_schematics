@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/net/home/chris/anna_elsa_fruit/anna_elsa_credit_display/anna_elsa_credit_display.sch</source>
+    <date>Mi 07 Apr 2021 11:27:40 CEST</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Anna and Elsa Credit Display PCB</title>
+        <company>Woods Amusements</company>
+        <rev>1.0</rev>
+        <date>2021-04-07</date>
+        <source>anna_elsa_credit_display.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>I2C</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="w_connectors" part="HEADER_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60674256</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>I2C</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="w_connectors" part="HEADER_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606754CA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60690854</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60691CB7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60692402</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606930F3</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60693A55</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694D8C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694D96</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694DA0</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694DAA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HT16K33_20</value>
+      <footprint>Package_SO:SOP-20_7.5x12.8mm_P1.27mm</footprint>
+      <libsource lib="eurocad" part="HT16K33_20" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A30B6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>HT16K33_20</value>
+      <footprint>Package_SO:SOP-20_7.5x12.8mm_P1.27mm</footprint>
+      <libsource lib="eurocad" part="HT16K33_20" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A7183</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SC56*</value>
+      <footprint>Kingbright:DIP10_KINGBRIGHT_SX56</footprint>
+      <libsource lib="SC56" part="SC56*" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694B92</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60706FC8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070721A</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60707435</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607076F2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F5044</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47µF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C164078</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F53D8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F9DD9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47µF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C164078</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FA16E</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="_semi" part="DIODE" description="Diode voltage current [footprint]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607689EB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076D0B3</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="_semi" part="DIODE" description="Diode voltage current [footprint]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079B0FD</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>DSHP06TSGET</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx06_Slide_KingTek_DSHP06TS_W7.62mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810191313_Dongguan-Guangzhu-Industrial-DSHP06TSGET_C40737.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C40737</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x06" description="6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079B584</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A88C0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LSCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A8C87</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A8EC8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LSCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A91B1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A9508</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SC56" part="SC56*">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SC56*</field>
+        <field name="Footprint">DIP10_KINGBRIGHT_SX56</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="~" type="power_in"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="~" type="power_in"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x06">
+      <description>6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_semi" part="DIODE">
+      <description>Diode voltage current [footprint]</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eurocad" part="HT16K33_20">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HT16K33_20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="COM0_AD" type="output"/>
+        <pin num="3" name="COM1_KS0" type="output"/>
+        <pin num="4" name="COM2_KS1" type="output"/>
+        <pin num="5" name="COM3_KS2" type="output"/>
+        <pin num="6" name="COM4" type="output"/>
+        <pin num="7" name="COM5" type="output"/>
+        <pin num="8" name="COM6" type="output"/>
+        <pin num="9" name="COM7" type="output"/>
+        <pin num="10" name="ROW7_KS8_INT" type="BiDi"/>
+        <pin num="11" name="ROW6_KS7" type="BiDi"/>
+        <pin num="12" name="ROW5_KS6" type="BiDi"/>
+        <pin num="13" name="ROW4_KS5" type="BiDi"/>
+        <pin num="14" name="ROW3_KS4" type="BiDi"/>
+        <pin num="15" name="ROW2_KS3" type="BiDi"/>
+        <pin num="16" name="ROW1_KS2" type="BiDi"/>
+        <pin num="17" name="ROW0_KS1" type="BiDi"/>
+        <pin num="18" name="SCL" type="input"/>
+        <pin num="19" name="SDA" type="BiDi"/>
+        <pin num="20" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="SC56">
+      <uri>/usr/share/kicad/library/SC56.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="_semi">
+      <uri>/usr/share/kicad/kicad-schlib-master/library/_semi.lib</uri>
+    </library>
+    <library logical="eurocad">
+      <uri>/usr/share/kicad/library/eurocad.lib</uri>
+    </library>
+    <library logical="w_connectors">
+      <uri>/usr/share/kicad/library/w_connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DP_2">
+      <node ref="D9" pin="5"/>
+      <node ref="D10" pin="5"/>
+      <node ref="J4" pin="10"/>
+      <node ref="D7" pin="5"/>
+      <node ref="D8" pin="5"/>
+      <node ref="D6" pin="5"/>
+    </net>
+    <net code="2" name="/G_2">
+      <node ref="D9" pin="10"/>
+      <node ref="D7" pin="10"/>
+      <node ref="D6" pin="10"/>
+      <node ref="D10" pin="10"/>
+      <node ref="D8" pin="10"/>
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="3" name="/F_2">
+      <node ref="D7" pin="9"/>
+      <node ref="D9" pin="9"/>
+      <node ref="D8" pin="9"/>
+      <node ref="D6" pin="9"/>
+      <node ref="D10" pin="9"/>
+      <node ref="J4" pin="12"/>
+    </net>
+    <net code="4" name="/7_SEG_6">
+      <node ref="D6" pin="3"/>
+      <node ref="D6" pin="8"/>
+      <node ref="J4" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R4-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="6" name="/7_SEG_1">
+      <node ref="J1" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="SW1" pin="6"/>
+    </net>
+    <net code="8" name="Net-(D11-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D12-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="J4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="15" name="+5V">
+      <node ref="J4" pin="20"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="17" name="/F_1">
+      <node ref="D1" pin="9"/>
+      <node ref="D5" pin="9"/>
+      <node ref="J1" pin="12"/>
+      <node ref="D4" pin="9"/>
+      <node ref="D3" pin="9"/>
+      <node ref="D2" pin="9"/>
+    </net>
+    <net code="18" name="/E_1">
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="19" name="/D_1">
+      <node ref="D3" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="14"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="20" name="/C_1">
+      <node ref="SW1" pin="9"/>
+      <node ref="D4" pin="4"/>
+      <node ref="D2" pin="4"/>
+      <node ref="D5" pin="4"/>
+      <node ref="J1" pin="15"/>
+      <node ref="D3" pin="4"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="21" name="/B_1">
+      <node ref="J1" pin="16"/>
+      <node ref="D5" pin="6"/>
+      <node ref="D3" pin="6"/>
+      <node ref="D1" pin="6"/>
+      <node ref="D2" pin="6"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="D4" pin="6"/>
+    </net>
+    <net code="22" name="/7_SEG_4">
+      <node ref="D4" pin="8"/>
+      <node ref="D4" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="23" name="/DP_1">
+      <node ref="D4" pin="5"/>
+      <node ref="D3" pin="5"/>
+      <node ref="D2" pin="5"/>
+      <node ref="J1" pin="10"/>
+      <node ref="D5" pin="5"/>
+      <node ref="D1" pin="5"/>
+    </net>
+    <net code="24" name="/G_1">
+      <node ref="J1" pin="11"/>
+      <node ref="D3" pin="10"/>
+      <node ref="D4" pin="10"/>
+      <node ref="D5" pin="10"/>
+      <node ref="D2" pin="10"/>
+      <node ref="D1" pin="10"/>
+    </net>
+    <net code="25" name="/A_1">
+      <node ref="D2" pin="7"/>
+      <node ref="D5" pin="7"/>
+      <node ref="SW1" pin="7"/>
+      <node ref="D1" pin="7"/>
+      <node ref="D4" pin="7"/>
+      <node ref="D3" pin="7"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="26" name="/7_SEG_3">
+      <node ref="D3" pin="8"/>
+      <node ref="D3" pin="3"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="27" name="/7_SEG_2">
+      <node ref="J1" pin="3"/>
+      <node ref="D2" pin="8"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="28" name="/A_2">
+      <node ref="D9" pin="7"/>
+      <node ref="J4" pin="17"/>
+      <node ref="D6" pin="7"/>
+      <node ref="D7" pin="7"/>
+      <node ref="D10" pin="7"/>
+      <node ref="SW1" pin="10"/>
+      <node ref="D8" pin="7"/>
+    </net>
+    <net code="29" name="/7_SEG_8">
+      <node ref="D8" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="D8" pin="8"/>
+    </net>
+    <net code="30" name="/E_2">
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="J4" pin="13"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="31" name="/D_2">
+      <node ref="D10" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="J4" pin="14"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="32" name="/C_2">
+      <node ref="D7" pin="4"/>
+      <node ref="D10" pin="4"/>
+      <node ref="SW1" pin="12"/>
+      <node ref="D6" pin="4"/>
+      <node ref="D8" pin="4"/>
+      <node ref="J4" pin="15"/>
+      <node ref="D9" pin="4"/>
+    </net>
+    <net code="33" name="/B_2">
+      <node ref="D6" pin="6"/>
+      <node ref="D8" pin="6"/>
+      <node ref="SW1" pin="11"/>
+      <node ref="D7" pin="6"/>
+      <node ref="J4" pin="16"/>
+      <node ref="D10" pin="6"/>
+      <node ref="D9" pin="6"/>
+    </net>
+    <net code="34" name="/7_SEG_7">
+      <node ref="J4" pin="3"/>
+      <node ref="D7" pin="8"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="35" name="/7_SEG_5">
+      <node ref="D5" pin="8"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="36" name="SDA">
+      <node ref="J1" pin="19"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J4" pin="19"/>
+    </net>
+    <net code="37" name="SCL">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J4" pin="18"/>
+    </net>
+    <net code="38" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="39" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="40" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="47" name="/7_SEG_10">
+      <node ref="D10" pin="3"/>
+      <node ref="J4" pin="6"/>
+      <node ref="D10" pin="8"/>
+    </net>
+    <net code="48" name="/7_SEG_9">
+      <node ref="D9" pin="3"/>
+      <node ref="D9" pin="8"/>
+      <node ref="J4" pin="5"/>
+    </net>
+  </nets>
+</export>

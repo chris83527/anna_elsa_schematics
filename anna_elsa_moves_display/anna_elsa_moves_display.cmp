@@ -1,0 +1,251 @@
+Cmp-Mod V01 Created by PcbNew   date = Di 06 Apr 2021 18:03:37 CEST
+
+BeginCmp
+TimeStamp = 606D2C1F
+Path = /607A8C87
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D36B2
+Path = /607A9508
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2C41
+Path = /607A91B1
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2C30
+Path = /607A8EC8
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D358C
+Path = /607A88C0
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2BFD
+Path = /6076D0B3
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2CBE
+Path = /6079B584
+Reference = SW1;
+ValeurCmp = ADDR;
+IdModule  = Button_Switch_SMD:SW_DIP_SPSTx06_Slide_KingTek_DSHP06TS_W7.62mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2A64
+Path = /6079B0FD
+Reference = D12;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D2A4B
+Path = /607689EB
+Reference = D11;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 6069327C
+Path = /60690854
+Reference = D1;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606CA65F
+Path = /606FA16E
+Reference = C2;
+ValeurCmp = 47µF;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 606CA6A7
+Path = /606F53D8
+Reference = C4;
+ValeurCmp = 47µF;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C9F97
+Path = /606F5044
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C9BC0
+Path = /606F9DD9
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C41D0
+Path = /606A7183
+Reference = J4;
+ValeurCmp = HT16K33_20;
+IdModule  = Package_SO:SOP-20_7.5x12.8mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 606946F7
+Path = /607076F2
+Reference = H4;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 606946EF
+Path = /60707435
+Reference = H3;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 606946E7
+Path = /6070721A
+Reference = H2;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 60694891
+Path = /60706FC8
+Reference = H1;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C5025
+Path = /60694DAA
+Reference = D10;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C40F8
+Path = /60693A55
+Reference = D5;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C506A
+Path = /60694DA0
+Reference = D9;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C4029
+Path = /606930F3
+Reference = D4;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C4F56
+Path = /60694D96
+Reference = D8;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606932DC
+Path = /60692402
+Reference = D3;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C4F9B
+Path = /60694D8C
+Reference = D7;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C3BBC
+Path = /60691CB7
+Reference = D2;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 606C4FE0
+Path = /60694B92
+Reference = D6;
+ValeurCmp = SC56*;
+IdModule  = Kingbright:DIP10_KINGBRIGHT_SX56;
+EndCmp
+
+BeginCmp
+TimeStamp = 60692CF0
+Path = /606A30B6
+Reference = J1;
+ValeurCmp = HT16K33_20;
+IdModule  = Package_SO:SOP-20_7.5x12.8mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 606D5E65
+Path = /606754CA
+Reference = J3;
+ValeurCmp = I2C;
+IdModule  = Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6065FC6F
+Path = /60674256
+Reference = J2;
+ValeurCmp = I2C;
+IdModule  = Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical;
+EndCmp
+
+EndListe
