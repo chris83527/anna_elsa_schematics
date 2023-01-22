@@ -1,0 +1,81 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/net/home/chris/anna_elsa_fruit/anna_elsa_esp32_cpu_old/anna_elsa_esp32_cpu.kicad_sch</h1>
+    <p>Do 29 Sep 2022 12:42:33 CEST</p>
+    <p>Eeschema 6.0.7-f9a2dced07~116~ubuntu20.04.1</p>
+    <p><b>Component Count:</b>131</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>BT1</td><td>1</td><td>Battery_Cell</td><td>Device:Battery_Cell</td><td>Battery:BatteryHolder_Keystone_1060_1x2032</td><td>Single-cell battery</td><td></td></tr>
+    <tr><td>C1, C2, C3, C7, C8, C9, C19</td><td>7</td><td>100nF/50v</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C4, C10, C12, C13</td><td>4</td><td>33nF/50V</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>4.7µF/16v</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6</td><td>1</td><td>10µF/6.3v</td><td>Device:C_Polarized_Small</td><td>Capacitor_SMD:CP_Elec_4x5.4</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C11, C16, C17, C20</td><td>4</td><td>680nF/50V</td><td>Device:C_Small</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C14, C15, C18</td><td>3</td><td>330pF/50V</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C21, C23</td><td>2</td><td>1µF/50v</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C22</td><td>1</td><td>100µF/6.3v</td><td>Device:C_Small</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C24</td><td>1</td><td>220pF/50V</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C25, C26</td><td>2</td><td>4.7nF/50V</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C27, C28</td><td>2</td><td>470nF/16v</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C29, C30</td><td>2</td><td>220µF/35v</td><td>Device:C_Polarized_Small</td><td>Capacitor_SMD:C_Elec_8x10.2</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D2</td><td>1</td><td>RUN</td><td>Device:LED</td><td>LED_SMD:LED_0805_2012Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D3</td><td>1</td><td>BAT54</td><td>anna_elsa_cpu-rescue:SCHOTTKY-w_device</td><td>Package_TO_SOT_SMD:SOT-23</td><td></td><td></td></tr>
+    <tr><td>D4</td><td>1</td><td>PWR2</td><td>Device:LED</td><td>LED_SMD:LED_0805_2012Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>F1, F2, F3, F4</td><td>4</td><td>2A 30V</td><td>Device:Polyfuse</td><td>Fuse:Fuse_1812_4532Metric</td><td>Resettable fuse, polymeric positive temperature coefficient</td><td></td></tr>
+    <tr><td>FB1, FB2</td><td>2</td><td>120Ohm@100MHz 4A</td><td>Device:FerriteBead_Small</td><td>Inductor_SMD:L_1206_3216Metric</td><td>Ferrite bead, small symbol</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.2mm_M3_Pad_Via</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>REEL_RIGHT</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>REEL_CENTRE</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>REEL_LEFT</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>LED / VFD</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>LED_STRIP</td><td>Connector_Generic:Conn_01x03</td><td>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>PSU</td><td>railway_keypad-rescue:HEADER_6-w_connectors</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_6-G-3.5_1x06_P3.50mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J7</td><td>1</td><td>HOPPER</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>COIN_VALIDATOR</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>SPK_L</td><td>w_connectors:HEADER_2</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J10</td><td>1</td><td>CREDIT_DISPLAY</td><td>Connector_Generic:Conn_01x04</td><td>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>SPK_R</td><td>w_connectors:HEADER_2</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>JTAG</td><td>w_connectors:HEADER_5x2</td><td>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>DOOR_SW</td><td>w_connectors:HEADER_2</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J22</td><td>1</td><td>BTN_SWITCHES</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J23</td><td>1</td><td>BTN_LAMPS</td><td>Connector_Generic:Conn_01x08</td><td>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>JP1</td><td>1</td><td>A2</td><td>Jumper:SolderJumper_2_Open</td><td>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</td><td>Solder Jumper, 2-pole, open</td><td></td></tr>
+    <tr><td>JP2</td><td>1</td><td>A1</td><td>Jumper:SolderJumper_2_Open</td><td>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</td><td>Solder Jumper, 2-pole, open</td><td></td></tr>
+    <tr><td>JP3</td><td>1</td><td>A0</td><td>Jumper:SolderJumper_2_Open</td><td>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</td><td>Solder Jumper, 2-pole, open</td><td></td></tr>
+    <tr><td>L1, L2, L3, L4</td><td>4</td><td>15µH</td><td>Device:L_Small</td><td>Inductor_SMD:L_SigTra_SC3316F</td><td>Inductor, small symbol</td><td></td></tr>
+    <tr><td>NT1, NT2</td><td>2</td><td>NetTie_2</td><td>Device:NetTie_2</td><td>NetTie:NetTie-2_SMD_Pad0.5mm</td><td>Net tie, 2 pins</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>SS8050</td><td>Transistor_BJT:BC846</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.1A Ic, 65V Vce, NPN Transistor, SOT-23</td><td></td></tr>
+    <tr><td>Q2</td><td>1</td><td>SS8850</td><td>Transistor_BJT:BC856</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.1A Ic, 65V Vce, PNP Transistor, SOT-23</td><td></td></tr>
+    <tr><td>Q3</td><td>1</td><td>ULN2803ADWR</td><td>Transistor_Array:ULN2803A</td><td>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</td><td>Darlington Transistor Arrays, SOIC18/DIP18</td><td></td></tr>
+    <tr><td>Q4, Q7</td><td>2</td><td>BSS138</td><td>Transistor_FET:BSS138</td><td>Package_TO_SOT_SMD:SOT-23</td><td>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R9, R10, R11, R12, R13, R14, R15, R16, R18, R27</td><td>12</td><td>4k7</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R17, R25, R32, R36, R38, R41</td><td>7</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R4, R5, R7</td><td>3</td><td>100k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6, R8</td><td>2</td><td>68k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R19, R20, R21, R22, R23, R24</td><td>6</td><td>22</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R26, R28, R33, R34</td><td>4</td><td>100</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R29</td><td>1</td><td>15.0k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R30, R45</td><td>2</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R31, R40</td><td>2</td><td>180</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R35</td><td>1</td><td>18.2k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R37, R39, R42</td><td>3</td><td>18</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R43, R44</td><td>2</td><td>470</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>RESET</td><td>custom_symbols:SW_PUSH_BUTTON</td><td>Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP</td><td>Button</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>BOOT</td><td>custom_symbols:SW_PUSH_BUTTON</td><td>Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP</td><td>Button</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>ESP32-WROOM-32E(16M)</td><td>RF_Module:ESP32-WROOM-32D</td><td>RF_Module:ESP32-WROOM-32</td><td>RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</td><td></td></tr>
+    <tr><td>U2, U5, U6, U7, U9, U10, U11</td><td>7</td><td>SN74LVC1G17</td><td>SN74LVC1G17:SN74LVC1G17</td><td>Package_TO_SOT_SMD:SOT-23-5</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>TAS5731PHP</td><td>TAS5731:TAS5731PHP</td><td>Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias</td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>DS3231M</td><td>Timer_RTC:DS3231MZ</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>±5ppm, I2C Real-Time Clock SOIC-8</td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>MCP23017-E_SO</td><td>Interface_Expansion:MCP23017_SO</td><td>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</td><td>16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
